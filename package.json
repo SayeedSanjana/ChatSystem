@@ -1,15 +1,24 @@
 {
-  "name": "boo-talk",
+  "name": "chat_system",
   "version": "1.0.0",
-  "description": "Realtime chat app with rooms",
-  "main": "server.js",
+  "description": "A realtime chat app with rooms",
+  "main": "index.js",
   "scripts": {
-    "start": "node server ",
-    "dev" : "nodemon server"
+    "start": "node server/index.js",
+    "dev":"nodemon server/index.js" 
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayeedSanjana/ChatSystem.git"
   },
   "author": "Sanjana Sayeed",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayeedSanjana/ChatSystem/issues"
+  },
+  "homepage": "https://github.com/SayeedSanjana/ChatSystem#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "moment": "^2.29.4",
     "socket.io": "^4.5.3"
