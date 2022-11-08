@@ -30,6 +30,16 @@
                     <li></li>
                     <li></li>
                 </ul>
+                <ul class="squares">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                
+
             </div>
             <div class="md:flex md:items-center md:justify-center w-full sm:w-auto md:h-full w-2/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white">
                 <div class="max-w-md w-full space-y-8">
@@ -122,6 +132,71 @@ export default {
 </script>
 <style>
 /*remove custom style*/
+  .squares{
+   display: block;
+   border-radius: 100%;
+   opacity: 0.3;
+   position: absolute;
+   overflow:hidden;
+   width:100%;
+   height:100%;
+   left:0;
+   top:0;
+
+  }
+  .squares li{
+    border-radius: 100%;
+    width: 60px;
+    position:absolute;
+    height: 60px;
+    display:inline-block;
+    background: repeating-linear-gradient(-35deg, #43ABC9, #43ABC9 7px, #369ebc 7px, #369ebc 14px);
+    animation: animate 15s linear infinite;
+    bottom: -150px;  
+}
+.squares li:nth-child(1){
+    left: 50%;
+    animation-delay:0s; 
+    width: 40px;
+    height: 40px;
+   
+}
+.squares li:nth-child(2){
+    right: 0%;
+    animation-delay:10s; 
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+}
+.squares li:nth-child(3){
+    left: 25%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 0s;
+    animation-duration: 12s;
+}
+.squares li:nth-child(4){
+    left: 15%;
+    width: 125px;
+    height: 125px;
+    animation-delay: 0s;
+   
+    /* animation-duration: 12s; */
+}
+.squared li:nth-child(5){
+    left: 60%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 10s;
+}
+.squares li:nth-child(6){
+    left: 90%;
+    width: 30px;
+    height: 30px;
+    animation-duration: 12s;
+    animation-delay: 0s;
+}
+ 
   .circles{
     position: absolute;
     top: 0;
