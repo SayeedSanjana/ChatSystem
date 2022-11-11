@@ -10,7 +10,7 @@
                 style="background-image: url(https://images.unsplash.com/photo-1526045612212-70caf35c14df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);">
                 <div class="absolute bg-gradient-to-b from-teal-600 to-blue-500 opacity-75 inset-0 z-0"></div>
                 <div class="w-full  max-w-md z-10">
-                    <div class="sm:text-4xl xl:text-5xl font-bold leading-tight mb-6">Reference site about Lorem Ipsum..</div>
+                    <div class="sm:text-4xl xl:text-5xl font-bold leading-tight mb-6">Chat with people, stay in touch..</div>
                     <div class="sm:text-sm xl:text-md text-gray-200 font-normal"> What is Lorem Ipsum Lorem Ipsum is simply dummy
                         text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever
                         since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it
@@ -43,18 +43,18 @@
             </div>
             <div class="md:flex md:items-center md:justify-center w-full sm:w-auto md:h-full w-2/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white">
                 <div class="max-w-md w-full space-y-8">
-                    <div class="text-center">
-                        <h2 class="mt-6 text-3xl font-bold text-gray-900">
-                        Welcom Back!
+                    <div class="text-center ">
+                        <h2 class="font-semibold text-4xl text-gray-700">
+                        Hello!
                         </h2>
-                        <p class="mt-2 text-sm text-gray-500">Please sign in to your account</p>
+                        <p class="mt-2 text-sm text-gray-500">Please select a room to join the chat</p>
                     </div>
                 <!-- <div class="flex flex-row justify-center items-center space-x-3">
-                    <a href="https://www.behance.net/ajeeshmon" target="_blank"
+                     <a href="https://www.behance.net/ajeeshmon" target="_blank"
                     class="w-11 h-11 items-center justify-center inline-flex rounded-2xl font-bold text-lg   bg-blue-900 hover:shadow-lg cursor-pointer transition ease-in duration-300"><img
                         class="w-4 h-4"
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0xNS45OTcgMy45ODVoMi4xOTF2LTMuODE2Yy0uMzc4LS4wNTItMS42NzgtLjE2OS0zLjE5Mi0uMTY5LTMuMTU5IDAtNS4zMjMgMS45ODctNS4zMjMgNS42Mzl2My4zNjFoLTMuNDg2djQuMjY2aDMuNDg2djEwLjczNGg0LjI3NHYtMTAuNzMzaDMuMzQ1bC41MzEtNC4yNjZoLTMuODc3di0yLjkzOWMuMDAxLTEuMjMzLjMzMy0yLjA3NyAyLjA1MS0yLjA3N3oiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+"></span>
-                    <a href="https://twitter.com/ajeemon?lang=en" target="_blank"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0xNS45OTcgMy45ODVoMi4xOTF2LTMuODE2Yy0uMzc4LS4wNTItMS42NzgtLjE2OS0zLjE5Mi0uMTY5LTMuMTU5IDAtNS4zMjMgMS45ODctNS4zMjMgNS42Mzl2My4zNjFoLTMuNDg2djQuMjY2aDMuNDg2djEwLjczNGg0LjI3NHYtMTAuNzMzaDMuMzQ1bC41MzEtNC4yNjZoLTMuODc3di0yLjkzOWMuMDAxLTEuMjMzLjMzMy0yLjA3NyAyLjA1MS0yLjA3N3oiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+"></a>
+                   <a href="https://twitter.com/ajeemon?lang=en" target="_blank"
                     class="w-11 h-11 items-center justify-center inline-flex rounded-2xl font-bold text-lg  text-white bg-blue-400 hover:shadow-lg cursor-pointer transition ease-in duration-300"><img
                         class="w-4 h-4"
                         src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDY4MS4zMzQ2NCA2ODEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTIwMC45NjQ4NDQgNTE1LjI5Mjk2OWMyNDEuMDUwNzgxIDAgMzcyLjg3MTA5NC0xOTkuNzAzMTI1IDM3Mi44NzEwOTQtMzcyLjg3MTA5NCAwLTUuNjcxODc1LS4xMTcxODgtMTEuMzIwMzEzLS4zNzEwOTQtMTYuOTM3NSAyNS41ODU5MzctMTguNSA0Ny44MjQyMTgtNDEuNTg1OTM3IDY1LjM3MTA5NC02Ny44NjMyODEtMjMuNDgwNDY5IDEwLjQ0MTQwNi00OC43NTM5MDcgMTcuNDYwOTM3LTc1LjI1NzgxMyAyMC42MzY3MTggMjcuMDU0Njg3LTE2LjIzMDQ2OCA0Ny44MjgxMjUtNDEuODk0NTMxIDU3LjYyNS03Mi40ODgyODEtMjUuMzIwMzEzIDE1LjAxMTcxOS01My4zNjMyODEgMjUuOTE3OTY5LTgzLjIxNDg0NCAzMS44MDg1OTQtMjMuOTE0MDYyLTI1LjQ3MjY1Ni01Ny45NjQ4NDMtNDEuNDAyMzQ0LTk1LjY2NDA2Mi00MS40MDIzNDQtNzIuMzY3MTg4IDAtMTMxLjA1ODU5NCA1OC42ODc1LTEzMS4wNTg1OTQgMTMxLjAzMTI1IDAgMTAuMjg5MDYzIDEuMTUyMzQ0IDIwLjI4OTA2MyAzLjM5ODQzNyAyOS44ODI4MTMtMTA4LjkxNzk2OC01LjQ4MDQ2OS0yMDUuNTAzOTA2LTU3LjYyNS0yNzAuMTMyODEyLTEzNi45MjE4NzUtMTEuMjUgMTkuMzYzMjgxLTE3Ljc0MjE4OCA0MS44NjMyODEtMTcuNzQyMTg4IDY1Ljg3MTA5MyAwIDQ1LjQ2MDkzOCAyMy4xMzY3MTkgODUuNjA1NDY5IDU4LjMxNjQwNyAxMDkuMDgyMDMyLTIxLjUtLjY2MDE1Ni00MS42OTUzMTMtNi41NjI1LTU5LjM1MTU2My0xNi4zODY3MTktLjAxOTUzMS41NTA3ODEtLjAxOTUzMSAxLjA4NTkzNy0uMDE5NTMxIDEuNjcxODc1IDAgNjMuNDY4NzUgNDUuMTcxODc1IDExNi40NjA5MzggMTA1LjE0NDUzMSAxMjguNDY4NzUtMTEuMDE1NjI1IDIuOTk2MDk0LTIyLjYwNTQ2OCA0LjYwOTM3NS0zNC41NTg1OTQgNC42MDkzNzUtOC40Mjk2ODcgMC0xNi42NDg0MzctLjgyODEyNS0yNC42MzI4MTItMi4zNjMyODEgMTYuNjgzNTk0IDUyLjA3MDMxMiA2NS4wNjY0MDYgODkuOTYwOTM3IDEyMi40MjU3ODEgOTEuMDIzNDM3LTQ0Ljg1NTQ2OSAzNS4xNTYyNS0xMDEuMzU5Mzc1IDU2LjA5NzY1Ny0xNjIuNzY5NTMxIDU2LjA5NzY1Ny0xMC41NjI1IDAtMjEuMDAzOTA2LS42MDU0NjktMzEuMjYxNzE4OC0xLjgxNjQwNyA1Ny45OTk5OTk4IDM3LjE3NTc4MSAxMjYuODcxMDkzOCA1OC44NzEwOTQgMjAwLjg4NjcxODggNTguODcxMDk0IiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PC9nPjwvc3ZnPg=="></span>
@@ -65,33 +65,49 @@
                 </div> -->
                     <div class="flex items-center justify-center space-x-2">
                         <span class="h-px w-16 bg-gray-200"></span>
-                        <span class="text-gray-300 font-normal">or continue with</span>
+                        <span class="text-gray-300 font-normal">Chat, Any Time Of Day</span>
                         <span class="h-px w-16 bg-gray-200"></span>
                     </div>
                     <form class="mt-8 space-y-6" action="#" method="POST">
                         <input type="hidden" name="remember" value="true">
-                        <div class="relative">
-                            <div class="absolute right-3 mt-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500"
-                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                </svg>
+                        <div class="relative ">
+                            
+                            <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">Username</label>
+                            <div>
+                                <div class="absolute right-3 bg-teal-100 opacity-40 border border-teal-200 rounded-full p-1">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500"
+                                    fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg> -->
+                                    <img class="h-5 w-5" src="https://img.icons8.com/external-anggara-blue-anggara-putra/32/null/external-user-support-anggara-blue-anggara-putra-2.png"/>
+                                </div>
+                                <input
+                                    class=" w-full text-sm px-4 py-2 border-b border-gray-300 focus:outline-none rounded-2xl focus:border-teal-700 focus:border-b-2 focus:border-opacity-40"
+                                    type="" placeholder="Type a username" value="">
                             </div>
-                            <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">Email</label>
-                            <input
-                                class=" w-full text-base px-4 py-2 border-b border-gray-300 focus:outline-none rounded-2xl focus:border-indigo-500"
-                                type="" placeholder="mail@gmail.com" value="mail@gmail.com">
                         </div>
-                        <div class="mt-8 content-center">
-                            <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">
-                                Password
-                            </label>
-                            <input
-                                class="w-full content-center text-base px-4 py-2 border-b rounded-2xl border-gray-300 focus:outline-none focus:border-indigo-500"
-                                type="" placeholder="Enter your password" value="*****|">
+                        <div class="mt-8 content-center dropdown ">
+                            <div class="relative">
+                                <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">
+                                    Select Room
+                                </label>
+                                <div class="">           
+                                    <div class="absolute right-3 bottom-3 rounded border-2 border-teal-200 bg-teal-100 opacity-40 ">
+                                        <svg class="fill-current h-4 w-4 text-teal-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                                    </div>
+                                    <input
+                                    class="w-full content-center text-sm px-4 py-2 border-b border-gray-300 focus:outline-none rounded-2xl focus:border-teal-700 focus:border-b-2 focus:border-opacity-40"
+                                    type="" placeholder="Choose a room from the below list" value="">
+                                </div>
+                            </div>
+                            <ul class="dropdown-menu absolute hidden text-gray-700 text-sm pt-1">
+                                <li class=""><a class="rounded-t bg-teal-600 opacity-40 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
+                                <li class=""><a class="bg-teal-600 opacity-40 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
+                                <li class=""><a class="rounded-b bg-teal-600 opacity-40 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
+                            </ul>
                         </div>
-                        <div class="flex items-center justify-between">
+                        <!-- <div class="flex items-center justify-between">
                             <div class="flex items-center">
                                 <input id="remember_me" name="remember_me" type="checkbox"
                                 class="h-4 w-4 bg-blue-500 focus:ring-blue-400 border-gray-300 rounded">
@@ -104,25 +120,24 @@
                                 Forgot your password?
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                         <div>
                             <button type="submit"
-                                class="w-full flex justify-center bg-gradient-to-r from-indigo-500 to-blue-600  hover:bg-gradient-to-l hover:from-blue-500 hover:to-indigo-600 text-gray-100 p-4  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500">
-                                Sign in
+                                class="w-full flex justify-center opacity-50 bg-gradient-to-r from-blue-500 to-teal-700  hover:bg-gradient-to-l hover:from-blue-500 hover:to-indigo-600 text-gray-100 p-4  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500">
+                                Join Room
                             </button>
                         </div>
-                        <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
+                        <!-- <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
                             <span>Don't have an account?</span>
                             <a href="#" class="text-indigo-400 hover:text-blue-500 no-underline hover:underline cursor-pointer transition ease-in duration-300">Sign
                                 up</a>
-                        </p>
+                        </p> -->
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
-        
 
 </template>
 <script>
@@ -131,6 +146,11 @@ export default {
 }
 </script>
 <style>
+.dropdown:hover .dropdown-menu {
+  display: block;
+  z-index: 1;
+}
+
 /*remove custom style*/
   .squares{
    display: block;
@@ -303,6 +323,5 @@ export default {
         opacity: 0;
         border-radius: 50%;
     }
- 
 }
 </style>
