@@ -44,8 +44,8 @@
             <div class="md:flex md:items-center md:justify-center w-full sm:w-auto md:h-full w-2/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white">
                 <div class="max-w-md w-full space-y-8">
                     <div class="text-center ">
-                        <h2 class="font-semibold text-4xl text-gray-700">
-                        Hello!
+                        <h2 class=" text-5xl text-transparent bg-clip-text bg-gradient-to-br from-indigo-900 to-teal-300 content">
+                        Bonjour!!
                         </h2>
                         <p class="mt-2 text-sm text-gray-500">Please select a room to join the chat</p>
                     </div>
@@ -101,10 +101,10 @@
                                     type="" placeholder="Choose a room from the below list" value="">
                                 </div>
                             </div>
-                            <ul class="dropdown-menu absolute hidden text-gray-700 text-sm pt-1">
-                                <li class=""><a class="rounded-t bg-teal-600 opacity-40 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
-                                <li class=""><a class="bg-teal-600 opacity-40 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
-                                <li class=""><a class="rounded-b bg-teal-600 opacity-40 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
+                            <ul class="dropdown-menu relative inline-block hidden text-gray-700 text-sm pt-1">
+                                <li class=""><a class="rounded-t bg-gray-100 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a></li>
+                                <li class=""><a class="bg-gray-100 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a></li>
+                                <li class=""><a class="rounded-b bg-gray-100 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a></li>
                             </ul>
                         </div>
                         <!-- <div class="flex items-center justify-between">
@@ -146,9 +146,17 @@ export default {
 }
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple");
 .dropdown:hover .dropdown-menu {
   display: block;
-  z-index: 1;
+
+}
+.content{
+  font-family: "Rancho", sans-serif;
+  transform-origin: 50% 5em;
+}
+.content {
+  animation: wiggle 5s linear infinite;
 }
 
 /*remove custom style*/
@@ -324,4 +332,36 @@ export default {
         border-radius: 50%;
     }
 }
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+  from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+}
+
 </style>
