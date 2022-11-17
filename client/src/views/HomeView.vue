@@ -74,7 +74,7 @@
                             
                             <label class="ml-3 text-sm font-bold text-gray-700 tracking-wide">Username</label>
                             <div>
-                                <div class="absolute right-3 bg-teal-100 opacity-40 border border-teal-200 rounded-full p-1">
+                                <div class="absolute right-3 bg-teal-100 opacity-40 border border-teal-200 rounded-full p-1 hidden sm:block">
                                     <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500"
                                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -93,7 +93,7 @@
                                     Select Room
                                 </label>
                                 <div class="">           
-                                    <div class="absolute right-3 bottom-3 rounded border-2 border-teal-200 bg-teal-100 opacity-40 ">
+                                    <div class="absolute right-3 bottom-3 rounded border-2 border-teal-200 bg-teal-100 opacity-40  hidden sm:block">
                                         <svg class="fill-current h-4 w-4 text-teal-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
                                     </div>
                                     <input

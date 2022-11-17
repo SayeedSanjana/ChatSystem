@@ -3,7 +3,7 @@
         <body>
     <div class="container mx-auto">
       <div class="min-w-full border rounded lg:grid lg:grid-cols-3">
-        <div class="border-r border-gray-300 lg:col-span-1">
+        <div class="border-r border-gray-300 sm:col-span-1">
           <div class="mx-3 my-3">
             <div class="relative text-gray-600">
               <span class="absolute inset-y-0 left-0 flex items-center pl-2">
@@ -59,7 +59,7 @@
             </li>
           </ul>
         </div>
-        <div class="hidden lg:col-span-2 lg:block">
+        <div class="hidden sm:col-span-2 sm:block">
           <div class="w-full">
             <div class="relative flex items-center p-3 border-b border-gray-300">
               <img class="object-cover w-10 h-10 rounded-full"
@@ -68,7 +68,7 @@
               <span class="absolute w-3 h-3 bg-green-600 rounded-full left-10 top-3">
               </span>
             </div>
-            <div class="relative w-full p-6 overflow-y-auto h-[40rem]">
+            <div class="relative w-full p-6 overflow-y-auto h-[38rem]  overflow-y-scroll">
               <ul class="space-y-2">
                 <li class="flex justify-start">
                   <div class="relative max-w-xl px-4 py-2 text-gray-700 rounded shadow">
@@ -91,11 +91,17 @@
                     </span>
                   </div>
                 </li>
+                <li class="flex justify-start">
+                  <div class="relative max-w-xl px-4 py-2 text-gray-700 rounded shadow">
+                    <span class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </span>
+                  </div>
+                </li>
               </ul>
             </div>
             
             
-            <div class="flex items-center justify-between w-full p-3 border-t border-gray-300 bg-green-300">
+            <div class="flex items-center justify-between w-full p-3 border-t border-gray-300 ">
               <button>
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-500" fill="none" viewBox="0 0 24 24"
                   stroke="currentColor">
