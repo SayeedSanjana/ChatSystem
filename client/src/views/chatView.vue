@@ -3,8 +3,8 @@
     <body>
     <div class="container mx-auto">
       <div class="min-w-full border rounded grid grid-cols-3 bg-green-700 ">
-        <div class="border-r border-gray-300 sm:col-span-1">
-          <div class="mx-3 my-3">
+        <div class="sm:border-r border-gray-300 sm:col-span-1 ">
+          <div class="mx-3 my-3 hidden sm:block">
             <div class="relative text-gray-600">
               <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -17,8 +17,8 @@
             </div>
           </div>
 
-          <ul class="overflow-auto h-[32rem] bg-red-200">
-            <h2 class="my-2 mb-2 ml-2 text-lg text-gray-600">Chats</h2>
+          <ul class="overflow-auto h-[42rem] bg-red-200 w-14 sm:w-full">
+            <h2 class="my-2 mb-2 ml-2 text-lg text-gray-600 hidden sm:block">Chats</h2>
             <li class="hidden lg:block">
               <a
                 class="flex items-center px-3 py-2 text-sm transition duration-150 ease-in-out border-b border-gray-300 cursor-pointer hover:bg-gray-100 focus:outline-none">
@@ -75,7 +75,7 @@
           </ul>
 
         </div>
-        <div class="hidden sm:col-span-2 sm:block">
+        <div class="sm:col-span-2 bg-white">
           <div class="w-full">
             <div class="relative flex items-center p-3 border-b border-gray-300">
               <img class="object-cover w-10 h-10 rounded-full"
